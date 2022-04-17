@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="lib/css/emoji.css" rel="stylesheet">
+</head>
+<body style="background-image: url('abstract-polygonal-background-vector.jpg')">
+<div id="menu">
+<li id="logo">Joe Biden</li>
+<li><a href="#about">About Me</a></li>
+<li><a href="#photos">My Photos</a></li>
+<li><a href="#playlist">My Playlist</a></li>
+<li><a href="#like">Like</a></li>
+<li><a href="#qrcoder">QR code</a></li>
+<li><a href="#spa">Q&A</a></li>
+<li><a href="#contact">Contact Me</a></li>
+</div>
+		  
+<section id="about" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h1>about me</h1>
+<br/>
+<br/>
+<p>
+  My name is <b>Joseph Robinette Biden Junior</b> but you probably know me as <b>Joe Biden.</b><br>
+  I am the 46th and current president of the United States (since 20/01/2021), and a member of the Democratic Party.<br>
+  I am 79 years old,I was born on November 20, 1942 and raised in Scranton, Pennsylvania.<br>
+  My wife's name is Jill. We got married in 1997.<br>
+  I have 4 children: Beau, Hunter, Naomi and Ashley. I also have 2 dogs.<br>
+  I love baseball and football, and was one of the leading scorers on our undefeated football team during my senior year.
+</p>
+<br/>
+</section>
+
+<section id="photos" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<h1>my photos</h1>
+<br/>
+<center><img src=Slide1.JPG width=800 height=450 /></center>	
+<br/>
+</section>
+
+<section id="playlist" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h1>my playlist</h1>
+<br/>
+<br/>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/45cYwDMibGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<br/>
+<br/>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/pB-5XG-DbAA?" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<br/>
+<br/>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/YQHsXMglC9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<br/>
+<br/>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/qQzdAsjWGPg?" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<br/>
+<br/>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/LcJm1pOswfM?" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h1>give me a like</h1>
+<br/>
+<center><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fjoebiden&width=62&layout=box_count&action=like&size=small&share=false&height=65&appId" width="62" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></center>
+<br/>
+<center><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fjoebiden&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></center>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h1>scan my code</h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h1>Q&A</h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h1>contact me</h1>
+<br/>
+<center><form action="mailto:someone@example.com" method="post" enctype="text/plain">
+  Name:<br>
+  <input type="text" name="name"><br>
+  E-mail:<br>
+  <input type="text" name="mail"><br>
+  Message:<br>
+
+  <textarea name="Contact-Message" rows="6" cols="20" data-emojiable="true">
+    
+  </textarea><br><br>
+  <input type="submit" value="Send">
+  <input type="reset" value="Reset">
+  </form></center>
+
+
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+ <script>
+  $(function() {
+    // Initializes and creates emoji set from sprite sheet
+    window.emojiPicker = new EmojiPicker({
+      emojiable_selector: '[data-emojiable=true]',
+      assetsPath: '../lib/img/',
+      popupButtonClasses: 'fa fa-smile-o'
+    });
+    // Finds all elements with `emojiable_selector` and converts them to rich emoji input fields
+    // You may want to delay this step if you have dynamically created input fields that appear later in the loading process
+    // It can be called as many times as necessary; previously converted input fields will not be converted again
+    window.emojiPicker.discover();
+  });
+</script>
+ <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+ <script src="lib/js/config.js"></script>
+ <script src="lib/js/util.js"></script>
+ <script src="lib/js/jquery.emojiarea.js"></script>
+ <script src="lib/js/emoji-picker.js"></script>
+ 
+</body>
+</html>

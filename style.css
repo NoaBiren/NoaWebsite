@@ -1,0 +1,49 @@
+#menu
+{
+	position: fixed;
+	width: 100%;
+	height: 42px;
+	background: white;
+    font-family: 'comic sans ms';
+	background-color: paleturquoise;
+    font-weight: bold;
+}
+li{
+	display: inline;
+	background-color: paleturquoise;
+	margin: 20px;
+
+
+
+}
+li:hover{
+    background-color: deepskyblue;
+}
+
+h1{
+	font-family: 'candara';
+	text-align: center;
+	background-color:paleturquoise;
+	color:aquamarine;
+	text-shadow: -1px 1px 0 #000,
+	1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+p{
+	text-align: center;
+	font-family: 'Calibri';
+	font-size: 20px;
+}
+
+#logo{
+	font: "candara";
+	font-size: 30px;
+	color:aquamarine;
+	text-shadow: -1px 1px 0 #000,
+	1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
